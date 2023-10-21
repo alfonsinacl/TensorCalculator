@@ -55,3 +55,5 @@ tensor_ex = my_tensor.random_tensor()
 my_tensor.ground_tensor(tensor_ex, 0.1)
 tensor_ex
 my_tensor.reshape_tensor(tensor_ex, (4, 3))
+
+
