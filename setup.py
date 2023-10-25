@@ -11,9 +11,9 @@ NAME = __name__
 setup(
     name                    = NAME,
     version                 = VERSION,
-    description             = 'Brief description of your package',
+    description             = 'Tensor module to perform simple calculations with tensors',
     author                  = AUTHOR,
-    author_email            = 'pedro.anquela@ufv.es',
+    author_email            = 'alfonsinacortinasluetic@gmail.com',
     license                 = 'MIT',
     python_requires         = '>=3.9.5',
     packages                = find_packages(),
