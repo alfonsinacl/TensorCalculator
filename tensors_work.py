@@ -20,10 +20,14 @@ class TensorCalculator:
 
     @staticmethod
     def sum_tensor(tensor1, tensor2):
+        if tensor1.size() != tensor2.size() and tensor2.size() != tensor1.size():
+            raise ValueError("Tensors must have the same shape to perform the operation")
         return tensor1 + tensor2
 
     @staticmethod
     def mult_tensor(tensor1, tensor2):
+        if tensor1.size() != tensor2.size() and tensor2.size() != tensor1.size():
+            raise ValueError("Tensors must have the same shape to perform the operation")
         return tensor1 * tensor2
 
     @staticmethod
@@ -54,6 +58,9 @@ my_tensor = TensorCalculator((3, 4))
 tensor_ex = my_tensor.random_tensor()
 my_tensor.ground_tensor(tensor_ex, 0.1)
 tensor_ex
-my_tensor.reshape_tensor(tensor_ex, (4, 3))
+tensor_ex_reshaped = my_tensor.reshape_tensor(tensor_ex, (4, 3))
+tensor_ex_2 = my_tensor.random_tensor()
+tensor_sum = my_tensor.sum_tensor(tensor_ex, tensor_ex_2)
+tensor_sum
 
 
