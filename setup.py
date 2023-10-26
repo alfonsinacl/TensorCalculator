@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from setuptools import setup, find_packages
-from TensorCalculator import __author__,__version__,__name__
+from TensorCalculator.tensor_calculator import __author__,__version__,__name__
 
 
 VERSION = __version__
