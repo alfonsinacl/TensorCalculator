@@ -12,4 +12,4 @@ COMMIT = 12
 
 __version__ = f'{MAJOR}.{MINOR}.{PATCH}.{COMMIT}'
 __author__  = 'Alfonsina Cortiñas Luetic'
-__name__    = 'tensors_work'
+__name__    = 'TensorCalculator'
