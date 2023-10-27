@@ -1,14 +1,12 @@
 import torch
-# from dataclasses import dataclass
 
 __all__ = ['TensorCalculator']
 # __all__ is a special variable that defines what's accessible when someone imports the module
 
 
-# @dataclass
 class TensorCalculator:
     def __init__(self, shape: tuple):
-        shape = self.shape
+        self.shape = shape
 
     def zeros_tensor(self):
         return torch.zeros(self.shape)
