@@ -61,5 +61,3 @@ tensor_ex_reshaped = my_tensor.reshape_tensor(tensor_ex, (4, 3))
 tensor_ex_2 = my_tensor.random_tensor()
 tensor_sum = my_tensor.sum_tensor(tensor_ex, tensor_ex_2)
 tensor_sum
-
-
