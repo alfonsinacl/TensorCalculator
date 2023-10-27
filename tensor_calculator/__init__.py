@@ -1,7 +1,4 @@
-from .tensors_work import __all__
-
-# __all__ = tensors_work.__all__
-
+from .tensors_work import TensorCalculator
 
 
 MAJOR = 1
