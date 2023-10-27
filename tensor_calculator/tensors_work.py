@@ -1,7 +1,7 @@
 import torch
 
 
-# __all__ = ['TensorCalculator']
+__all__ = ['TensorCalculator']
 # __all__ is a special variable that defines what's accessible when someone imports the module
 
 

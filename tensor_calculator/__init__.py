@@ -1,6 +1,6 @@
-from .tensors_work import *
+from .tensors_work import __all__
 
-__all__ = tensors_work.__all__
+# __all__ = tensors_work.__all__
 
 
 
