@@ -1,4 +1,4 @@
-from TensorCalculator.tensor_calculator.tensors_work import *
+from tensors_work import *
 
 __all__ = tensors_work.__all__
 
