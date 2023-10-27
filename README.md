@@ -19,7 +19,7 @@ pip install -U git+https://github.com/alfonsinacl/TensorCalculator.git
 ```
 ## Usage
 
-import TensorCalculator
+from .tensors_work import TensorCalculator
 
 ## Create a tensor
 A = TensorCalculator((3, 2))
