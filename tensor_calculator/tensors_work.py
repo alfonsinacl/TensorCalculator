@@ -26,7 +26,7 @@ class TensorCalculator:
 
     @staticmethod
     def mult_tensor(tensor1, tensor2):
-        if tensor1.size() != tensor2.size() and tensor2.size() != tensor1.size():
+        if tensor1.size() != tensor2.size() or tensor2.size() != tensor1.size():
             raise ValueError("Tensors must have the same shape to perform the operation")
         return tensor1 * tensor2
 
